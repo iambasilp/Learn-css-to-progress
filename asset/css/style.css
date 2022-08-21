@@ -23,17 +23,17 @@ body{
     font-size: 1rem 500;
     font-weight: 500;
     padding: 1.75rem;
-    color: black;
+    color: var(--title-color);
     font-family: 'Roboto', sans-serif;
 }
 .header_area .main-menu .navbar .navbar-nav a.active{
-    background:red;
+    background: var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     background-clip: text;
 }
 .header_area .main-menu .navbar .navbar-nav a:hover{
-    background:red;
+    background:var(--gradient-color);
     -webkit-background-clip: text;
     -webkit-text-fill-color:transparent;
     background-clip: text;
