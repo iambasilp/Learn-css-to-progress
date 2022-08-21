@@ -65,6 +65,21 @@ body{
 .site-main .site-banner .banner-image > img{
     padding: 7rem 0;
 }
-
-
+ 
 /* Banne Area end */
+
+/* About Area start */
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px roboto;
+    letter-spacing: 21px;
+}
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* About Area end */
