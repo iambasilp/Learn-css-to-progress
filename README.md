@@ -8,7 +8,7 @@ https://iambasilp.github.io/Basil-Portfolio/
 -  Fully Responsive
 -  HTML5 + CSS3
 -  Built on Bootstrap 5
--  Remix Icons
+-  Remix Icons
 
 
 ## Credits 
