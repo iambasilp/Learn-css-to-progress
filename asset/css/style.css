@@ -1,87 +1,87 @@
 /* google font integration */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap");
 
-@import url('./global.css');
+@import url("./global.css");
 @import url(./variables.css);
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing:border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 
 /* Header Area start */
-.header_area .main-menu .navbar .navbar-brand{
-    padding: 0rem 2rem 0rem 5rem;
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0rem 2rem 0rem 5rem;
 }
-.header_area .main-menu .navbar{
-    padding: 1rem 20rem;
+.header_area .main-menu .navbar {
+  padding: 1rem 20rem;
 }
 
-.header_area .main-menu .navbar .navbar-nav .nav-item .nav-link{
-    text-transform:uppercase;
-    font-size: 1rem 500;
-    font-weight: 500;
-    padding: 1.75rem;
-    color: var(--title-color);
-    font-family: 'Roboto', sans-serif;
+.header_area .main-menu .navbar .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 1rem 500;
+  font-weight: 500;
+  padding: 1.75rem;
+  color: var(--title-color);
+  font-family: "Roboto", sans-serif;
 }
-.header_area .main-menu .navbar .navbar-nav a.active{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    background-clip: text;
+.header_area .main-menu .navbar .navbar-nav a.active {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
-.header_area .main-menu .navbar .navbar-nav a:hover{
-    background:var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:transparent;
-    background-clip: text;
+.header_area .main-menu .navbar .navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 /* Header Area end */
 
 /* Banne Area start */
 
-.site-main .site-banner .site-title h3{
-    padding-top: 35%;
-    font-weight: 500;
+.site-main .site-banner .site-title h3 {
+  padding-top: 35%;
+  font-weight: 500;
 }
-.site-main .site-banner .site-title h3::after{
-    content: '';
-    width: 18vw;
-    height: 2px;
-    background-color: black;
-    display: inline-block;
-    margin-left: 5%;
-    transform: translateY(-10px);
+.site-main .site-banner .site-title h3::after {
+  content: "";
+  width: 18vw;
+  height: 2px;
+  background-color: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
 }
-.site-main .site-banner .site-title h1{
-    font-size: 5rem;
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
 }
-.site-main .site-banner .site-title h4{
-    font-size: 1.5rem;
+.site-main .site-banner .site-title h4 {
+  font-size: 1.5rem;
 }
-.site-main .site-banner .banner-image > img{
-    padding: 7rem 0;
+.site-main .site-banner .banner-image > img {
+  padding: 7rem 0;
 }
- 
+
 /* Banne Area end */
 
 /* About Area start */
 
-.site-main .about-area{
-    padding: 8rem 5rem;
+.site-main .about-area {
+  padding: 8rem 5rem;
 }
-.site-main .about-area .about-title h2 > span{
-    display: block;
-    font: normal bold 49px/60px roboto;
-    letter-spacing: 21px;
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/60px roboto;
+  letter-spacing: 21px;
 }
-.site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.4rem 0;
 }
 
 /* About Area end */
