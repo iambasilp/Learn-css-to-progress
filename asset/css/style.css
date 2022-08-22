@@ -85,3 +85,98 @@ body {
 }
 
 /* About Area end */
+
+/* Brand Area start */
+
+.site-main .brand-area{
+    padding: 1rem 20rem;
+    margin-bottom: 4rem;
+}
+.site-main .brand-area .row .col-lg-4{
+    display: flex;
+    justify-content: center;
+}
+.site-main .brand-area .row .col-lg-4 > .single-brand{
+    border: 1px solid var(--border-color);
+    text-align: center;
+    padding: 1.8rem 0rem;
+    margin: .9rem 0rem;
+    width: 180px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform .4s ease;
+}
+.site-main .brand-area .row .col-lg-4 > .single-brand > img{
+    width:50%;
+}
+.site-main .brand-area .row .col-lg-4 > .single-brand:hover{
+    box-shadow: var(--box-shadow);
+    transform: scale(1.1);
+}
+.site-main .brand-area .row .col-lg-4 > .single-brand:hover > img{
+    filter: brightness(.25);
+} 
+.site-main .brand-area .experience-area{
+    padding-left: 1rem;
+    position: relative;
+}
+.site-main .brand-area .experience-area span{
+    display: block;
+}
+.site-main .brand-area .experience-area .years-area{
+    background: url('../images/client-info-bg.png') no-repeat 45px 25px;
+    padding: 2rem 0rem 2rem 10rem;
+    width: 40rem;
+    height: 18rem;
+}
+.site-main .brand-area .experience-area .bg-panel{
+    position: absolute;
+    left: -200px; top: 0%;
+    background: #e029290a;
+    width: 400px;
+    height: 400px;
+    margin-left: 340px;
+    z-index: -2;
+}
+.site-main .brand-area .experience-area .years-area .years{
+    font: normal bold 80px/40px roboto;
+    color: var(--primary-color);
+    z-index: 2;
+}
+.site-main .brand-area .experience-area .years-area h2> span{
+    font: normal 600 22px/30px roboto;
+}
+.site-main .brand-area .experience-area .call-area{
+   padding-left:10rem;
+}
+
+
+
+/* Brand Area end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
