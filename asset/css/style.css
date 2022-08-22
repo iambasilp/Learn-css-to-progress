@@ -147,7 +147,7 @@ body {
     font: normal 600 22px/30px roboto;
 }
 .site-main .brand-area .experience-area .call-area{
-   padding-left:10rem;
+   padding-left:11.2rem;
 }
 
 
@@ -155,7 +155,29 @@ body {
 /* Brand Area end */
 
 
+/* Service area start */
 
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+.site-main .services-area .service-title{
+    padding: 0rem 14rem;
+}
+.site-main .services-area .service-title h1{
+    font-size: 35px;
+}
+.site-main .services-area .service{
+    background:rgba(248,252,253,0.973);
+    padding: 2rem 0rem;
+    width: 16rem;
+    margin: 5rem .5rem;
+    transition: box-shadow 0.7s ease;
+}
+.site-main .services-area .service:hover{
+    box-shadow: var(--box-shadow);
+}
+
+/* Service area end */
 
 
 
