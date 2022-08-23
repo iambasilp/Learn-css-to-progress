@@ -194,8 +194,12 @@ body {
 .site-main .project-area .button-group button + button{
   padding-left: 3rem;
 }
+.site
 .site-main .project-area .grid .our-project > .title h4{
   font:normal 700 25px/12px roboto;
+}
+.site-main .project-area .grid .our-project a > img{
+  transition: all 0.3s ease-in-out;
 }
 .site-main .project-area .grid .our-project .img a:hover img{
   filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
