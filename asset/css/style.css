@@ -180,7 +180,28 @@ body {
 /* Service area end */
 
 
+/* Project Area start */
 
+.site-main .project-area{
+  padding: 4rem 0rem;
+}
+.site-main .project-area .button-group button{
+  background: transparent;
+  border: none;
+  font: normal 500 16px/130px roboto;
+  text-transform: uppercase;
+}
+.site-main .project-area .button-group button + button{
+  padding-left: 3rem;
+}
+.site-main .project-area .grid .our-project > .title h4{
+  font:normal 700 25px/12px roboto;
+}
+.site-main .project-area .grid .our-project .img a:hover img{
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+}
+
+/* Project Area end */
 
 
 
