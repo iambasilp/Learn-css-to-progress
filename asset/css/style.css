@@ -13,11 +13,18 @@ body {
 }
 
 /* Header Area start */
+.header_area{
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: white;
+  transition: all ease;
+}
 .header_area .main-menu .navbar .navbar-brand {
-  padding: 0rem 2rem 0rem 5rem;
+  padding: 0rem 2rem 0rem 0rem;
 }
 .header_area .main-menu .navbar {
-  padding: 1rem 20rem;
+  padding: 1rem 0rem;
 }
 
 .header_area .main-menu .navbar .navbar-nav .nav-item .nav-link {
@@ -27,6 +34,9 @@ body {
   padding: 1.75rem;
   color: var(--title-color);
   font-family: "Roboto", sans-serif;
+}
+.header_area .main-menu .navbar .navbar-nav .nav-item:last-child .nav-link{
+  padding-right: 0;
 }
 .header_area .main-menu .navbar .navbar-nav a.active {
   background: var(--gradient-color);
@@ -39,6 +49,10 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+.scroll-header {
+  box-shadow: 0 1px 14px rgb(236, 236, 236);
+  transition: all ease;
 }
 
 /* Header Area end */
@@ -206,7 +220,77 @@ body {
 }
 
 /* Project Area end */
+/* testimonial section start */
 
+.swiper-container
+{
+	
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.swiper-slide
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.swiper-slide-active
+{
+	filter: blur(0px);
+	background: #fff;
+}
+.testimonialBox
+{
+  max-width: 400px;
+  height: 600px;
+	padding: 40px;
+	color: #999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2rem;
+
+}
+.testimonialBox .quote
+{
+  /* width: 50%; */
+  text-align: center;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+}
+.testimonialBox .details
+{
+	display: flex;
+	align-items: center;
+	margin-top: 20px;
+}
+
+
+.testimonialBox .details h3
+{
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 1px;
+	color: #2196f3;
+	line-height: 1.1em;
+}
+.testimonialBox .details h3 span
+{
+	font-size: 12px;
+	color: #666;
+}
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right
+{
+	background-image: none;
+}
+
+/* testimonial section end */
 
 
 
