@@ -15,6 +15,7 @@ body {
 /* Header Area start */
 .header_area{
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 100;
   background: white;
@@ -58,7 +59,9 @@ body {
 /* Header Area end */
 
 /* Banne Area start */
-
+.site-main .site-banner{
+  margin-top: 111.97px;
+}
 .site-main .site-banner .site-title h3 {
   padding-top: 35%;
   font-weight: 500;
