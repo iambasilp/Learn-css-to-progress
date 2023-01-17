@@ -1,0 +1,34 @@
+.container {
+  width: 500px;
+  height: 300px;
+  color: white;
+  font-family: sans-serif;
+  padding: 2rem;
+  border: 10px dotted red;
+
+  /* background-color:green; */
+  /* background-clip: content-box; */
+  /* background-image: url(./images/tes.jpg); */
+  /* background-origin: border-box; */
+  /* background-repeat:no-repeat; */
+  /* background-position:top 2rem right 2rem; */
+  /* background-size:10px 20px; */
+
+  /* background: color image position / size repeat attachment origin clip */
+  background: url("./images/photo-1673833257045-bd91f5e84fae.avif") no-repeat,
+    green url(./images/tes.jpg) top 30px right 30px / 100% 100% no-repeat
+      content-box content-box;
+}
+p {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 2.5rem;
+}
+button {
+  border: none;
+  outline: none;
+  background-color: orangered;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 5px;
+}
