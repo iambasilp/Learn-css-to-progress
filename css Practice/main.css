@@ -1,4 +1,5 @@
 .container {
+  display: none;
   width: 500px;
   height: 300px;
   color: white;
@@ -27,8 +28,86 @@ p {
 button {
   border: none;
   outline: none;
-  background-color: orangered;
+  background-color: black;
   color: white;
   padding: 0.7rem 1.5rem;
   border-radius: 5px;
+}
+
+
+/* Pseudo selectors */
+
+
+
+ul li:first-child{
+  background-color: red;
+}
+ul li:last-child{
+  background-color: green;
+}
+ul li:nth-child(2){
+  background-color: yellow;
+}
+
+
+.content p:first-of-type{
+  background-color: red;
+}
+.content p:last-of-type{
+  background-color: green;
+}
+.content p:nth-of-type(3n){
+  background-color: yellow;
+}
+
+
+.content h1:first-child{
+  background-color: red;
+}
+
+.content h1:last-child{
+  background-color: green ; /* this doesnot work check parent last child whether h1 or not */
+}
+.content h1:last-of-type{
+  background-color: green;  /* this check parent and type h1 whether last child*/
+}
+
+.content h1:nth-of-type(3){
+  background-color: yellow;
+}
+
+.content h2:only-of-type{
+  background-color: brown; /* when parent h2 includes one type of h2 tag */
+}
+
+
+.content *:not(p,button){
+  color: green;
+}
+/* .content input:hover{
+  background-color: red;
+}
+.content input:focus{
+  background-color: green;
+}
+
+.content input[type="checkbox"]{
+  background-color: orangered;
+} */
+
+.content input[type="checkbox"]:checked + button {
+  color: blue;
+}
+
+/* psuedo elements */
+/* ::before  before the element */
+/* ::after  after the element */
+
+.content h2::before{
+  content: "basil";
+  margin-right: 3rem;
+}
+.content h2::after{
+  content:"pulikuth";
+  margin-left: 3rem;
 }
